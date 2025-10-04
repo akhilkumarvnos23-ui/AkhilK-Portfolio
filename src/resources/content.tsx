@@ -2,18 +2,18 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Logo, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
+  firstName: "Akhil",
+  lastName: "Kumar",
+  name: `Akhil Kumar`,
+  role: "UI/UX DESIGNER",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "akhilkumar.vnos23@gmail.com",
+  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Telugu"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: <>My weekly newsletter about creativity and engineering</>,
 };
@@ -22,18 +22,13 @@ const social: Social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
-    name: "GitHub",
-    icon: "github",
-    link: "https://github.com/once-ui-system",
-  },
-  {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/akhil-kumar-97a579146/",
   },
   {
-    name: "Threads",
-    icon: "threads",
+    name: "Behance",
+    icon: "behance",
     link: "https://www.threads.com/@once_ui",
   },
   {
@@ -49,9 +44,9 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Hi, I'm Akhil Kumar!</>,
   featured: {
-    display: true,
+    display: false,
     title: (
       <Row gap="12" vertical="center">
         <strong className="ml-4">Once UI</strong>{" "}
@@ -65,14 +60,7 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at{" "}
-      <Logo
-        dark
-        icon="/trademarks/wordmark-dark.svg"
-        style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
-      />
-      , where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      A UI/UX Designer with a strong focus on mobile app design and interactive prototypes. I leverage user research and Design Thinking to create aesthetically pleasing and user-friendly digital experiences.
     </>
   ),
 };
@@ -90,7 +78,7 @@ const about: About = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -98,9 +86,8 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I am a UI/UX Designer with a focus on mobile app design and interactive prototypes. I have experience creating aesthetically pleasing and user-friendly interfaces, as well as developing and maintaining 
+        design systems.I am looking to leverage my skills to create engaging digital assets and contribute to an innovative team.
       </>
     ),
   },
@@ -109,42 +96,72 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Freelance UX Designer (Mobile App Design)",
+        timeframe: "Oct 2022 - Oct 2023",
+        role: "Freelance UX Designer (Mobile App Design)",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Conducted user interviews, surveys, and usability testing to gather insights and refine mobile app experiences.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Designed wireframes and interactive prototypes using Figma to visualize user journeys and app interfaces.
           </>,
+          <>
+          Developed aesthetically pleasing and user-friendly interfaces while aligning with branding and accessibility guidelines.
+          </>,
+          <>
+          Presented designs to clients, gathered feedback, and iterated based on user testing results.
+          </>
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-01.jpg",
+          //   alt: "Once UI Project",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "OnDevice IT Solutions",
+        timeframe: "Jul 2021 – Oct 2022",
+        role: "UI/UX Designer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Led UX research initiatives by conducting usability tests and analyzing feedback to optimize web applications.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Created wireframes, prototypes, and final UI designs for enterprise-level applications.
           </>,
+          <>
+            Maintained design systems and UI style guides to uphold brand identity and improve user experience.
+          </>,
+          <>
+            Collaborated with cross-functional teams to deliver user-centered solutions that met business goals.
+          </>,
+          <>Advocated for Design Thinking methodology by introducing user-centered design practices to cross-functional teams.</>,
+          <>Worked closely with developers, product managers, and stakeholders to ensure design feasibility and consistency.</>
+        ],
+        images: [],
+      },
+      {
+        company: "DevRabbit IT Solutions",
+        timeframe: "Oct 2020 – Jun 2021",
+        role: "Trainee UI/UX Designer",
+        achievements: [
+          <>
+            Supported in creating wireframes, mockups, and basic prototypes using design tools.
+          </>,
+          <>
+            Assisted in conducting user research, usability testing, and analyzing user feedback.
+          </>,
+          <>
+            Helped maintain design documentation, style guides, and organize design assets
+          </>,
+          <>
+            Collaborated with senior designers and developers to understand project requirements and receive feedback.
+          </>
         ],
         images: [],
       },
@@ -155,12 +172,12 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Arizona State University, Tempe, AZ.",
+        description: <>Masters, User Experience</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Chalapathi Institute of Engineering & Technology, Lam, Guntur.",
+        description: <>B.Tech, Computer Science & Engineering</>,
       },
     ],
   },
@@ -171,57 +188,86 @@ const about: About = {
       {
         title: "Figma",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Able to prototype in Figma with unnatural speed.</>
         ),
         tags: [
-          {
-            name: "Figma",
-            icon: "figma",
-          },
+          // {
+          //   name: "Figma",
+          //   icon: "figma",
+          // },
         ],
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-02.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
+          // {
+          //   src: "/images/projects/project-01/cover-03.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
       {
-        title: "Next.js",
+        title: "Sketch",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Able to prototype in Sketch with unnatural speed.</>
         ),
         tags: [
-          {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
-          },
+          // {
+          //   name: "Sketch",
+          //   icon: "sketch",
+          // },
+          // {
+          //   name: "Next.js",
+          //   icon: "nextjs",
+          // },
+          // {
+          //   name: "Supabase",
+          //   icon: "supabase",
+          // },
         ],
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-04.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
+        ],
+      },  
+      {
+        title: "Canva",
+        description: (
+          <>Able to prototype in Canva with unnatural speed.</>
+        ),
+        tags: [
+          // {
+          //   name: "Canva",
+          //   icon: "canva",
+          // },
+          // {
+          //   name: "Next.js",
+          //   icon: "nextjs",
+          // },
+          // {
+          //   name: "Supabase",
+          //   icon: "supabase",
+          // },
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          // {
+          //   src: "/images/projects/project-01/cover-04.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },  
     ],
