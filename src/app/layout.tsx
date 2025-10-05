@@ -121,16 +121,13 @@ export default async function RootLayout({
                 radius: effects.mask.radius,
                 cursor: effects.mask.cursor,
               }}
-              gradient={{
-                display: effects.gradient.display,
-                opacity: effects.gradient.opacity as opacity,
-                x: effects.gradient.x,
-                y: effects.gradient.y,
-                width: effects.gradient.width,
-                height: effects.gradient.height,
-                tilt: effects.gradient.tilt,
-                colorStart: effects.gradient.colorStart,
-                colorEnd: effects.gradient.colorEnd,
+              gradient={{ 
+                display: true, 
+                opacity: 50,
+                x: 50,
+                y: 0,
+                colorStart: "brand-background-strong",
+                colorEnd: "accent-background-strong"
               }}
               dots={{
                 display: effects.dots.display,

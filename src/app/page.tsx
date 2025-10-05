@@ -10,6 +10,8 @@ import {
   Schema,
   Meta,
   Line,
+  Flex,
+  GlitchFx
 } from "@once-ui-system/core";
 import { home, about, person, baseURL, routes } from "@/resources";
 import { Mailchimp } from "@/components";
@@ -65,9 +67,18 @@ export default function Home() {
               </Badge>
             </RevealFx>
           )}
+          {about.avatar.display && (
+            <Flex
+              minWidth="160" paddingX="l" paddingBottom="xl" gap="m"
+              direction="column">
+              <Avatar
+                src={person.avatar}
+                size="xl" />
+            </Flex>
+          )}
           <RevealFx translateY="4" fillWidth horizontal="center" paddingBottom="16">
             <Heading wrap="balance" variant="display-strong-l">
-              {home.headline}
+              Hi, I'm <GlitchFx  speed="medium" > Akhil Kumar </GlitchFx>
             </Heading>
           </RevealFx>
           <RevealFx translateY="8" delay={0.2} fillWidth horizontal="center" paddingBottom="32">
@@ -86,14 +97,14 @@ export default function Home() {
               arrowIcon
             >
               <Row gap="8" vertical="center" paddingRight="4">
-                {about.avatar.display && (
+                {/* {about.avatar.display && (
                   <Avatar
                     marginRight="8"
                     style={{ marginLeft: "-0.75rem" }}
                     src={person.avatar}
                     size="m"
                   />
-                )}
+                )} */}
                 {about.title}
               </Row>
             </Button>
