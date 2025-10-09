@@ -26,8 +26,8 @@ const routes: RoutesConfig = {
 
 const display: DisplayConfig = {
   location: false,
-  time: true,
-  themeSwitcher: true,
+  time: false,
+  themeSwitcher: false,
 };
 
 // Enable password protection on selected routes
@@ -75,8 +75,8 @@ const fonts: FontsConfig = {
 const style: StyleConfig = {
   theme: "system", // dark | light | system
   neutral: "gray", // sand | gray | slate | custom
-  brand: "red", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
-  accent: "red", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
+  brand: "cyan", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
+  accent: "emerald", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
   solid: "contrast", // color | contrast
   solidStyle: "plastic", // flat | plastic
   border: "conservative", // rounded | playful | conservative
@@ -145,17 +145,17 @@ const mailchimp: MailchimpConfig = {
   effects: {
     mask: {
       cursor: true,
-      x: 50,
-      y: 0,
-      radius: 100,
+      x: 0,
+      y: 100,
+      radius: 10,
     },
     gradient: {
       display: true,
-      opacity: 90,
+      opacity: 50,
       x: 50,
       y: 0,
       width: 50,
-      height: 50,
+      height: 100,
       tilt: 0,
       colorStart: "accent-background-strong",
       colorEnd: "static-transparent",

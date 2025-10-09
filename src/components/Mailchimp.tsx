@@ -47,6 +47,19 @@ export const Mailchimp: React.FC<React.ComponentProps<typeof Column>> = ({ ...fl
     }
   };
 
+  const handleDownloadResume = () => {
+    // Open the PDF in a new tab/window
+    window.open('/resume/Akhil-Kumar-Mudigonda.pdf', '_blank');
+    
+    // Also trigger download
+    const link = document.createElement('a');
+    link.href = '/resume/Akhil-Kumar-Mudigonda.pdf';
+    link.download = 'Akhil-Kumar-Mudigonda.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   if (newsletter.display === false) return null;
 
   return (
@@ -113,7 +126,13 @@ export const Mailchimp: React.FC<React.ComponentProps<typeof Column>> = ({ ...fl
         </Text>
         <div className="clear">
             <Row height="48" vertical="center">
-              <Button id="mc-embedded-subscribe" value="Subscribe" size="m" fillWidth>
+              <Button 
+                id="mc-embedded-subscribe" 
+                value="Subscribe" 
+                size="m" 
+                fillWidth
+                onClick={handleDownloadResume}
+              >
                 Download My Resume
               </Button>
             </Row>
