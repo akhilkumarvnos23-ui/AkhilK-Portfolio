@@ -13,9 +13,9 @@ const person: Person = {
 };
 
 const newsletter: Newsletter = {
-  display: false,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>My weekly newsletter about creativity and engineering</>,
+  display: true,
+  title: <>Let's connect!</>,
+  description: <>akhilkumar.vnos23@gmail.com</>,
 };
 
 const social: Social = [
@@ -29,7 +29,7 @@ const social: Social = [
   {
     name: "Behance",
     icon: "behance",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.behance.net/akhilkumar16",
   },
   {
     name: "Email",
