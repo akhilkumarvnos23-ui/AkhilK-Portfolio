@@ -8,14 +8,15 @@ const person: Person = {
   role: "UI/UX DESIGNER",
   avatar: "/images/avatar.jpg",
   email: "akhilkumar.vnos23@gmail.com",
+  phone:"+16027052683",
   location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Telugu"], // optional: Leave the array empty if you don't want to display languages
+  languages: [], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
   display: true,
   title: <>Let's connect!</>,
-  description: <>akhilkumar.vnos23@gmail.com</>,
+  description: <>akhilkumar.vnos23@gmail.com<br></br><br></br>+1 602-705-2683</>,
 };
 
 const social: Social = [
@@ -35,6 +36,11 @@ const social: Social = [
     name: "Email",
     icon: "email",
     link: `mailto:${person.email}`,
+  },
+  {
+    name: "Phone",
+    icon: "phone",
+    link: `tel:${person.phone}`,
   },
 ];
 
@@ -60,7 +66,8 @@ const home: Home = {
   },
   subline: (
     <>
-      A UI/UX Designer with a strong focus on mobile app design and interactive prototypes. I leverage user research and Design Thinking to create aesthetically pleasing and user-friendly digital experiences.
+        I am a UI/UX Designer with a focus on mobile app design and interactive prototypes. I have experience creating aesthetically pleasing and user-friendly interfaces, as well as developing and maintaining 
+        design systems.I am looking to leverage my skills to create engaging digital assets and contribute to an innovative team.
     </>
   ),
 };
@@ -86,9 +93,16 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        I am a UI/UX Designer with a focus on mobile app design and interactive prototypes. I have experience creating aesthetically pleasing and user-friendly interfaces, as well as developing and maintaining 
-        design systems.I am looking to leverage my skills to create engaging digital assets and contribute to an innovative team.
-      </>
+      Hi, I’m Akhil 👋—a UI/UX designer who blends empathy, structure, and creativity to turn complex ideas into simple, meaningful experiences.
+
+My design journey began with curiosity about how technology can be made more human. That curiosity led me to pursue a Master’s in User Experience at Arizona State University, where I explored everything from user research and usability testing to design systems and interaction design.
+
+Over the past few years, I’ve worked on mobile and web experiences—from refining enterprise workflows at OnDevice IT Solutions to crafting intuitive, visually cohesive interfaces as a freelance UX designer. I’ve collaborated with cross-functional teams to conduct user interviews, build interactive prototypes in Figma, and develop design systems that keep experiences consistent and scalable.
+
+My projects range from redesigning a City of Mesa survey for better accessibility to optimizing AI-assisted research tools and creating end-to-end mobile travel experiences. Each challenge fuels my passion for creating digital products that not only look good but feel right to use.
+
+When I’m not designing, you’ll probably find me exploring new UX trends or sketching ideas inspired by real-world interactions—always searching for ways to make everyday digital experiences a little more human.
+    </>
     ),
   },
   work: {
@@ -168,7 +182,7 @@ const about: About = {
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Studies",
     institutions: [
       {
@@ -182,7 +196,7 @@ const about: About = {
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Technical skills",
     skills: [
       {

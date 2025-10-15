@@ -16,6 +16,7 @@ import { baseURL, about, person, social } from "@/resources";
 import TableOfContents from "@/components/about/TableOfContents";
 import styles from "@/components/about/about.module.scss";
 import React from "react";
+import { Mailchimp } from "@/components";
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -77,43 +78,40 @@ export default function About() {
           <TableOfContents structure={structure} about={about} />
         </Column>
       )}
-      <Row fillWidth s={{ direction: "column"}} horizontal="center">
-        {about.avatar.display && (
-          <Column
-            className={styles.avatar}
-            top="64"
-            fitHeight
-            position="sticky"
-            s={{ position: "relative", style: { top: "auto" } }}
-            xs={{ style: { top: "auto" } }}
-            minWidth="160"
-            paddingX="l"
-            paddingBottom="xl"
-            gap="m"
-            flex={3}
-            horizontal="center"
-          >
-            <Avatar src={person.avatar} size="xl" />
-            <Row gap="8" vertical="center">
-              <Icon onBackground="accent-weak" name="globe" />
-              {person.location}
-            </Row>
-            {person.languages && person.languages.length > 0 && (
-              <Row wrap gap="8">
-                {person.languages.map((language, index) => (
-                  <Tag key={index} size="l">
-                    {language}
-                  </Tag>
-                ))}
-              </Row>
-            )}
-          </Column>
-        )}
-        <Column className={styles.blockAlign} flex={9} maxWidth={40}>
+      <Row fillWidth s={{ direction: "column" }} horizontal="center">
+        <Column className={styles.blockAlign} flex={9} maxWidth={55}>
+          {/* {about.avatar.display && (
+            <Column
+              className={styles.avatar}
+              // top="64"
+              fitHeight
+              // position="sticky"
+              s={{ position: "relative", style: { top: "auto" } }}
+              xs={{ style: { top: "auto" } }}
+              minWidth="160"
+              paddingX="l"
+              paddingBottom="l"
+              gap="m"
+              flex={3}
+              horizontal="center"
+            >
+              <Avatar src={person.avatar} size="xl" />
+              {person.languages && person.languages.length > 0 && (
+                <Row wrap gap="8">
+                  {person.languages.map((language, index) => (
+                    <Tag key={index} size="l">
+                      {language}
+                    </Tag>
+                  ))}
+                </Row>
+              )}
+            </Column>
+          )} */}
+
           <Column
             id={about.intro.title}
             fillWidth
-            minHeight="160"
+            // minHeight="160"
             vertical="center"
             marginBottom="32"
           >
@@ -142,21 +140,19 @@ export default function About() {
                 />
               </Row>
             )}
-            <Heading className={styles.textAlign} variant="display-strong-xl">
+            {/* <Heading className={styles.textAlign} variant="display-strong-xl">
               {person.name}
-            </Heading>
-            <Text
+            </Heading> */}
+            {/* <Text
               className={styles.textAlign}
               variant="display-default-xs"
               onBackground="neutral-weak"
             >
               {person.role}
-            </Text>
-            {social.length > 0 && (
+            </Text> */}
+            {/* {social.length > 0 && (
               <Row
                 className={styles.blockAlign}
-                paddingTop="20"
-                paddingBottom="8"
                 gap="8"
                 wrap
                 horizontal="center"
@@ -191,20 +187,40 @@ export default function About() {
                     ),
                 )}
               </Row>
-            )}
+            )} */}
           </Column>
+          <Row fillWidth horizontal="between" vertical="end" marginBottom="4">
+            <Heading as="h2" id={about.work.title} variant="display-strong-s" marginBottom="m">
+              About Me
+            </Heading>
+          </Row>
 
           {about.intro.display && (
-            <Column textVariant="body-default-l" fillWidth gap="m" marginBottom="xl">
+            <Column textVariant="body-default-l" fillWidth gap="m" marginBottom="l">
               {about.intro.description}
             </Column>
           )}
+          {/* <Row fillWidth horizontal="center" vertical="end" marginBottom="m">
+            <Button
+              href="/resume/Akhil-Kumar-Mudigonda.pdf"
+              prefixIcon="MdDownload"
+              label='Download Resume'
+              size="m"
+              weight="default"
+              data-brand="cyan"
+              variant="secondary"
+              data-solid="inverse"
+              style={{ borderColor: 'cyan' }}
+            />
+          </Row> */}
 
           {about.work.display && (
             <>
-              <Heading as="h2" id={about.work.title} variant="display-strong-s" marginBottom="m">
-                {about.work.title}
-              </Heading>
+              <Row fillWidth horizontal="between" vertical="end" marginBottom="4">
+                <Heading as="h2" id={about.work.title} variant="display-strong-s" marginBottom="m">
+                  {about.work.title}
+                </Heading>
+              </Row>
               <Column fillWidth gap="l" marginBottom="40">
                 {about.work.experiences.map((experience, index) => (
                   <Column key={`${experience.company}-${experience.role}-${index}`} fillWidth>
@@ -333,6 +349,7 @@ export default function About() {
               </Column>
             </>
           )}
+          <Mailchimp />
         </Column>
       </Row>
     </Column>
