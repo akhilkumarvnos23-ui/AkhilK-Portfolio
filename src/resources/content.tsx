@@ -9,7 +9,7 @@ const person: Person = {
   avatar: "/images/avatar.jpg",
   email: "akhilkumar.vnos23@gmail.com",
   phone:"+16027052683",
-  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "America/Phoenix", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: [], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -66,8 +66,7 @@ const home: Home = {
   },
   subline: (
     <>
-        I am a UI/UX Designer with a focus on mobile app design and interactive prototypes. I have experience creating aesthetically pleasing and user-friendly interfaces, as well as developing and maintaining 
-        design systems.I am looking to leverage my skills to create engaging digital assets and contribute to an innovative team.
+      Strategic and data-informed Senior Product Designer with 7+ years of experience leading user-centered design across enterprise SaaS, e-commerce, and AI-driven platforms — architecting scalable design systems, driving WCAG-compliant accessibility, and delivering multi-million-dollar conversion rate impacts.
     </>
   ),
 };
@@ -93,16 +92,14 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-      Hi, I’m Akhil 👋—a UI/UX designer who blends empathy, structure, and creativity to turn complex ideas into simple, meaningful experiences.
-
-My design journey began with curiosity about how technology can be made more human. That curiosity led me to pursue a Master’s in User Experience at Arizona State University, where I explored everything from user research and usability testing to design systems and interaction design.
-
-Over the past few years, I’ve worked on mobile and web experiences—from refining enterprise workflows at OnDevice IT Solutions to crafting intuitive, visually cohesive interfaces as a freelance UX designer. I’ve collaborated with cross-functional teams to conduct user interviews, build interactive prototypes in Figma, and develop design systems that keep experiences consistent and scalable.
-
-My projects range from redesigning a City of Mesa survey for better accessibility to optimizing AI-assisted research tools and creating end-to-end mobile travel experiences. Each challenge fuels my passion for creating digital products that not only look good but feel right to use.
-
-When I’m not designing, you’ll probably find me exploring new UX trends or sketching ideas inspired by real-world interactions—always searching for ways to make everyday digital experiences a little more human.
-    </>
+        I&apos;m a Strategic and data-informed Senior Product Designer with 7+ years of experience leading user-centered design initiatives across enterprise SaaS, e-commerce, and AI-driven platforms.
+        <br /><br />
+        I specialize in architecting scalable, tokenized design systems in Figma, conducting mixed-methods user research, and deploying WCAG-compliant design strategies that boost product engagement and system usability. My work spans the full design lifecycle — from discovery and research through high-fidelity prototyping and design system governance.
+        <br /><br />
+        I hold a Master&apos;s in User Experience from Arizona State University and have a proven track record of collaborating with cross-functional engineering pods to automate handoff workflows, improve product discovery, and drive measurable conversion rate optimizations (CRO) that yield multi-million-dollar revenue impacts.
+        <br /><br />
+        My projects range from redesigning public-safety survey experiences for the City of Mesa, to building AI-assisted research tools with Mayo Clinic and ASU, to crafting end-to-end pilgrim travel mobile experiences. Each challenge fuels my passion for creating digital products that not only look good — but feel right to use.
+      </>
     ),
   },
   work: {
@@ -110,180 +107,145 @@ When I’m not designing, you’ll probably find me exploring new UX trends or s
     title: "Work Experience",
     experiences: [
       {
-        company: "Freelance UX Designer (Mobile App Design)",
-        timeframe: "Oct 2022 - Oct 2023",
-        role: "Freelance UX Designer (Mobile App Design)",
+        company: "Kroger",
+        timeframe: "Feb 2026 – Present",
+        role: "Senior Product Designer",
         achievements: [
-          <>
-            Conducted user interviews, surveys, and usability testing to gather insights and refine mobile app experiences.
-          </>,
-          <>
-            Designed wireframes and interactive prototypes using Figma to visualize user journeys and app interfaces.
-          </>,
-          <>
-          Developed aesthetically pleasing and user-friendly interfaces while aligning with branding and accessibility guidelines.
-          </>,
-          <>
-          Presented designs to clients, gathered feedback, and iterated based on user testing results.
-          </>
+          <>Architected and scaled a centralized enterprise design system in Figma using component variables and semantic tokens, cutting cross-functional design-to-development handoff cycles by 40%.</>,
+          <>Conducted rigorous A/B and multivariate experimentation testing on the digital check-out funnel via Amplitude analytics, refining interaction touchpoints to capture $2.5M in projected annual revenue.</>,
+          <>Led a comprehensive accessibility overhaul of the flagship e-commerce application to ensure strict WCAG 2.2 AA compliance, increasing usability metrics by 25% for assistive technology users.</>,
+          <>Designed high-throughput internal logistics tracking interface, implementing advanced data visualization layouts that compressed 1M+ daily complex inventory updates into scannable, actionable dashboards.</>,
+          <>Directed co-creation and user journey mapping sprints with 50+ key corporate business units, converting qualitative research observations into friction-free user flows that boosted monthly active user (MAU) interaction metrics.</>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          // {
-          //   src: "/images/projects/project-01/cover-01.jpg",
-          //   alt: "Once UI Project",
-          //   width: 16,
-          //   height: 9,
-          // },
+        images: [],
+      },
+      {
+        company: "AriesView",
+        timeframe: "Oct 2025 – Dec 2025",
+        role: "Associate Software Engineering Intern (UI/UX / Product Design)",
+        achievements: [
+          <>Transformed highly abstract, 50,000+ node datasets into simplified relational data visualization interfaces, reducing cognitive load metrics and increasing data-analyst task performance speeds by 28%.</>,
+          <>Facilitated targeted context inquiries and contextual mapping sessions with 40 domain specialists, conducting multi-point heuristic audits to mathematically validate and iterate upon automated AI insights.</>,
+          <>Programmed highly accurate interactive application prototypes utilizing Figma and ProtoPie, defining conditional logic and complex micro-animations to map out exact front-end browser performance behaviors.</>,
+          <>Documented and integrated 50+ new accessible UI components into the core design system repository, standardizing typography and style hierarchies to reduce production layout variances by 20%.</>,
         ],
+        images: [],
+      },
+      {
+        company: "Citus Infotech",
+        timeframe: "Oct 2022 – Nov 2023",
+        role: "Product Designer",
+        achievements: [
+          <>Engineered conversational flows for an enterprise AI assistant, configuring natural language intent maps and automated query routing states to deflect low-tier client troubleshooting volume by 30%.</>,
+          <>Restructured core navigation models for a multi-tenant B2B SaaS system, deploying Framer behavioral prototypes to compress platform onboarding paths and elevate client annual retention rates by 15%.</>,
+          <>Spearheaded the responsive system redesign of high-traffic corporate web properties managed via WordPress and AEM, using flexbox-grid mechanics to increase session lengths by 45% while driving bounce rates below 20%.</>,
+          <>Pioneered multi-tier heuristic evaluations on dated industrial operations software, using Miro journey mapping to eliminate 15 high-friction workflow gaps and streamline end-to-end task flows.</>,
+          <>Integrated micro-animations into system state transitions using Adobe After Effects and Lottie, establishing high-fidelity visual confirmation loops that elevated perceived system speeds by 22%.</>,
+        ],
+        images: [],
       },
       {
         company: "OnDevice IT Solutions",
         timeframe: "Jul 2021 – Oct 2022",
         role: "UI/UX Designer",
         achievements: [
-          <>
-            Led UX research initiatives by conducting usability tests and analyzing feedback to optimize web applications.
-          </>,
-          <>
-            Created wireframes, prototypes, and final UI designs for enterprise-level applications.
-          </>,
-          <>
-            Maintained design systems and UI style guides to uphold brand identity and improve user experience.
-          </>,
-          <>
-            Collaborated with cross-functional teams to deliver user-centered solutions that met business goals.
-          </>,
-          <>Advocated for Design Thinking methodology by introducing user-centered design practices to cross-functional teams.</>,
-          <>Worked closely with developers, product managers, and stakeholders to ensure design feasibility and consistency.</>
+          <>Designed information layouts for technical telemetry web products using Sketch and InVision, configuring multi-layered analytical charts that scaled enterprise operational speed parameters by 35%.</>,
+          <>Translated engineering specifications into low-and-high-fidelity interactive wireframes, establishing structured navigation trees that minimized customer time-to-onboard by 40%.</>,
+          <>Managed continuous, recursive digital usability validation testing tracks with 500+ active enterprise professionals, tracking interaction metrics to implement layout optimizations that increased call-to-action engagement by 18%.</>,
+          <>Authored and governed comprehensive product typography rules and structural patterns, supplying cross-functional global dev teams with clean web UI kits to accelerate feature release vectors by 25%.</>,
         ],
         images: [],
       },
       {
         company: "DevRabbit IT Solutions",
         timeframe: "Oct 2020 – Jun 2021",
-        role: "Trainee UI/UX Designer",
+        role: "UI/UX Designer",
         achievements: [
-          <>
-            Supported in creating wireframes, mockups, and basic prototypes using design tools.
-          </>,
-          <>
-            Assisted in conducting user research, usability testing, and analyzing user feedback.
-          </>,
-          <>
-            Helped maintain design documentation, style guides, and organize design assets
-          </>,
-          <>
-            Collaborated with senior designers and developers to understand project requirements and receive feedback.
-          </>
+          <>Supervised discovery research tracks and remote user testing panels, converting raw screen recordings into analytical insights to structurally justify high-priority iterative feature updates.</>,
+          <>Developed application layouts, cross-platform wireframes, and interactive click-through prototypes using Adobe XD, converting functional platform parameters into tested, high-fidelity consumer interfaces.</>,
+          <>Facilitated cross-functional design thinking workshops with external corporate partners, leveraging collaborative empathy maps to align aesthetic deliverables with fundamental commercial bottom-line outcomes.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Informative Web Solutions",
+        timeframe: "May 2017 – Sep 2020",
+        role: "UI/UX Designer",
+        achievements: [
+          <>Designed and deployed responsive web interfaces for 15+ digital retail applications, configuring streamlined product exploration and carting paths that drove average order value (AOV) metrics up by 12%.</>,
+          <>Authored platform-agnostic fluid layouts for smartphone devices, enforcing strict adherence to Apple Human Interface Guidelines and Material Design definitions to generate a 30% surge in mobile transaction conversions.</>,
+          <>Re-architected structural sitemaps and indexing structures for an enterprise educational repository portal, compressing total user navigation pathways from 5 down to 3 essential actions.</>,
         ],
         images: [],
       },
     ],
   },
   studies: {
-    display: false, // set to false to hide this section
-    title: "Studies",
+    display: true, // set to false to hide this section
+    title: "Education",
     institutions: [
       {
-        name: "Arizona State University, Tempe, AZ.",
-        description: <>Masters, User Experience</>,
+        name: "Arizona State University, Tempe, Arizona",
+        description: <>Master&apos;s in User Experience &nbsp;·&nbsp; Jan 2024 – Dec 2025</>,
       },
       {
-        name: "Chalapathi Institute of Engineering & Technology, Lam, Guntur.",
-        description: <>B.Tech, Computer Science & Engineering</>,
+        name: "Chalapathi Institute of Engineering & Technology, Guntur, India",
+        description: <>Bachelor&apos;s in Computer Science & Engineering &nbsp;·&nbsp; Oct 2013 – Apr 2017</>,
       },
     ],
   },
   technical: {
-    display: false, // set to false to hide this section
-    title: "Technical skills",
+    display: true, // set to false to hide this section
+    title: "Skills",
     skills: [
       {
-        title: "Figma",
+        title: "Product Strategy & Design",
         description: (
-          <>Able to prototype in Figma with unnatural speed.</>
+          <>End-to-End Product Design, User Research (Qualitative & Quantitative), Wireframing, High-Fidelity Prototyping, Information Architecture, Service Blueprints, Persona Development, Customer Journey Mapping, Interaction Design, Growth Design, Mobile & Responsive Web Design.</>
         ),
-        tags: [
-          // {
-          //   name: "Figma",
-          //   icon: "figma",
-          // },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          // {
-          //   src: "/images/projects/project-01/cover-02.jpg",
-          //   alt: "Project image",
-          //   width: 16,
-          //   height: 9,
-          // },
-          // {
-          //   src: "/images/projects/project-01/cover-03.jpg",
-          //   alt: "Project image",
-          //   width: 16,
-          //   height: 9,
-          // },
-        ],
+        tags: [],
+        images: [],
       },
       {
-        title: "Sketch",
+        title: "UX Design",
         description: (
-          <>Able to prototype in Sketch with unnatural speed.</>
+          <>UX Audits, Conversational Interfaces, AI-Driven UX, Data Visualization, Enterprise SaaS UX, User Personas, Site Mapping, Motion Design, Empathy Mapping, Typography, Color Theory, Use Cases, Agile UX.</>
         ),
-        tags: [
-          // {
-          //   name: "Sketch",
-          //   icon: "sketch",
-          // },
-          // {
-          //   name: "Next.js",
-          //   icon: "nextjs",
-          // },
-          // {
-          //   name: "Supabase",
-          //   icon: "supabase",
-          // },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          // {
-          //   src: "/images/projects/project-01/cover-04.jpg",
-          //   alt: "Project image",
-          //   width: 16,
-          //   height: 9,
-          // },
-        ],
-      },  
+        tags: [],
+        images: [],
+      },
       {
-        title: "Canva",
+        title: "Specialized Methodologies",
         description: (
-          <>Able to prototype in Canva with unnatural speed.</>
+          <>Component Governance, Figma Variables & Tokenization, Design Thinking, Usability Testing, Heuristic Evaluation, Accessibility Testing (WCAG 2.1/2.2 AA Compliance), A/B Testing & Experimentation, Motion & Micro-interactions.</>
         ),
-        tags: [
-          // {
-          //   name: "Canva",
-          //   icon: "canva",
-          // },
-          // {
-          //   name: "Next.js",
-          //   icon: "nextjs",
-          // },
-          // {
-          //   name: "Supabase",
-          //   icon: "supabase",
-          // },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          // {
-          //   src: "/images/projects/project-01/cover-04.jpg",
-          //   alt: "Project image",
-          //   width: 16,
-          //   height: 9,
-          // },
-        ],
-      },  
+        tags: [],
+        images: [],
+      },
+      {
+        title: "Design & Collaboration Tools",
+        description: (
+          <>Figma, ProtoPie, Sketch, Miro, Adobe Creative Suite (Illustrator, Photoshop, XD, InDesign, After Effects), InVision, Lottie, Framer, Balsamiq, Notion, Jira, Confluence.</>
+        ),
+        tags: [],
+        images: [],
+      },
+      {
+        title: "Product & Analytics",
+        description: (
+          <>Google Analytics, Amplitude, Hotjar, CMS Platforms (WordPress, Adobe Experience Manager/AEM), Slack.</>
+        ),
+        tags: [],
+        images: [],
+      },
+      {
+        title: "Technical Literacy",
+        description: (
+          <>Front-End Layout (HTML5, CSS3, JavaScript ES6), Flexbox/Grid Architecture, Resilient Responsive Breakpoints.</>
+        ),
+        tags: [],
+        images: [],
+      },
     ],
   },
 };
