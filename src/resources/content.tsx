@@ -15,7 +15,7 @@ const person: Person = {
 
 const newsletter: Newsletter = {
   display: true,
-  title: <>Let's connect!</>,
+  title: <>Let&apos;s connect!</>,
   description: <>akhilkumar.vnos23@gmail.com<br></br><br></br>+1 602-705-2683</>,
 };
 
@@ -50,7 +50,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Hi, I'm Akhil Kumar!</>,
+  headline: <>Hi, I&apos;m Akhil Kumar!</>,
   featured: {
     display: false,
     title: (
