@@ -13,7 +13,7 @@ export async function generateMetadata() {
 }
 
 export default function Gallery() {
-  return (
+  /*return (
     <Flex maxWidth="l">
       <Schema
         as="webPage"
@@ -30,5 +30,6 @@ export default function Gallery() {
       />
       <GalleryView />
     </Flex>
-  );
+  );*/
+  return true
 }
