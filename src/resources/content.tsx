@@ -213,7 +213,7 @@ intro: {
   },
 
   studies: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Education",
     institutions: [
       {
@@ -227,7 +227,7 @@ intro: {
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Skills",
     skills: [
       {
