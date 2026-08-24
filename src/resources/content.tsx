@@ -177,7 +177,7 @@ intro: {
           <>Managed complete application navigation using User Flows, defining logical task sequences and decision paths that streamlined user interactions and minimized unnecessary navigation complexity.</>,
           <>Prepared visual Journey Mapping documentation to illustrate end-to-end customer experiences, identifying interaction stages and opportunities for improving overall user satisfaction.</>,
           <>Facilitated Card Sorting exercises with representative users to organize application content into intuitive categories that improved navigation structures and information discoverability.</>,
-          <>Performed Tree Testing sessions to evaluate navigation effectiveness, measuring users' ability to locate information efficiently and refining content hierarchies based on observed results.</>,
+          <>Performed Tree Testing sessions to evaluate navigation effectiveness, measuring users&apos; ability to locate information efficiently and refining content hierarchies based on observed results.</>,
           <>Executed structured Heuristic Evaluation assessments by reviewing interface designs against established usability principles and documenting recommendations for improving consistency and user experience.</>,
           <>Implemented Cognitive Walkthrough methodology to examine task completion processes, identifying usability obstacles and validating interface effectiveness from the perspective of first-time users.</>,
           <>Coordinated formal Usability Testing sessions by preparing test scenarios, observing participant interactions, recording usability issues, and presenting actionable findings for design enhancements.</>,
