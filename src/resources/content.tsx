@@ -7,8 +7,8 @@ const person: Person = {
   name: `Akhil Kumar`,
   role: "UI/UX DESIGNER",
   avatar: "/images/avatar.jpg",
-  email: "akhilkumar.vnos23@gmail.com",
-  phone:"+16027052683",
+  email: "akhilkumarsview@gmail.com",
+  phone:"+19135356715",
   location: "America/Phoenix", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: [], // optional: Leave the array empty if you don't want to display languages
 };
@@ -16,7 +16,7 @@ const person: Person = {
 const newsletter: Newsletter = {
   display: true,
   title: <>Let&apos;s connect!</>,
-  description: <>akhilkumar.vnos23@gmail.com<br></br><br></br>+1 602-705-2683</>,
+  description: <>akhilkumarsview@gmail.com<br></br><br></br>+1 913-535-6715</>,
 };
 
 const social: Social = [
@@ -25,12 +25,7 @@ const social: Social = [
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/in/akhil-kumar-97a579146/",
-  },
-  {
-    name: "Behance",
-    icon: "behance",
-    link: "https://www.behance.net/akhilkumar16",
+    link: "https://www.linkedin.com/in/akhil-kumar-mudigonda/",
   },
   {
     name: "Email",
