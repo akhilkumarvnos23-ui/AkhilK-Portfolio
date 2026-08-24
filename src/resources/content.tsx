@@ -61,7 +61,7 @@ const home: Home = {
   },
   subline: (
     <>
-      Strategic and data-informed Senior Product Designer with 7+ years of experience leading user-centered design across enterprise SaaS, e-commerce, and AI-driven platforms — architecting scalable design systems, driving WCAG-compliant accessibility, and delivering multi-million-dollar conversion rate impacts.
+      Strategic and data-informed Senior Product Designer with 8+ years of experience leading user-centered design across enterprise SaaS, e-commerce, and AI-driven platforms — architecting scalable design systems, driving WCAG-compliant accessibility, and delivering multi-million-dollar conversion rate impacts.
     </>
   ),
 };
