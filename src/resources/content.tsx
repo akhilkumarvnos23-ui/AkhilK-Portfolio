@@ -87,18 +87,29 @@ const about: About = {
     display: false,
     link: "https://cal.com",
   },
-  intro: {
+intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        I&apos;m a Strategic and data-informed Senior Product Designer with 7+ years of experience leading user-centered design initiatives across enterprise SaaS, e-commerce, and AI-driven platforms.
+        I&apos;m an accomplished Senior Product Designer with 8+ years of experience delivering end-to-end product design
+        solutions that balance business objectives, user needs, and technical feasibility across enterprise applications.
         <br /><br />
-        I specialize in architecting scalable, tokenized design systems in Figma, conducting mixed-methods user research, and deploying WCAG-compliant design strategies that boost product engagement and system usability. My work spans the full design lifecycle — from discovery and research through high-fidelity prototyping and design system governance.
+        I specialize in establishing scalable design systems, interface standards, and consistent UX strategies for complex
+        digital products ‚AI leading Human-Centered Design initiatives that translate strategic business goals into
+        actionable, customer-focused design solutions. My work spans the full product lifecycle, from user research,
+        journey mapping, and information architecture through high-fidelity prototyping, design governance, and release
+        readiness review.
         <br /><br />
-        I hold a Master&apos;s in User Experience from Arizona State University and have a proven track record of collaborating with cross-functional engineering pods to automate handoff workflows, improve product discovery, and drive measurable conversion rate optimizations (CRO) that yield multi-million-dollar revenue impacts.
+        I hold a Master&apos;s in User Experience from Arizona State University and a Bachelor&apos;s in Computer Science
+        Engineering, and have a proven track record of mentoring design teams, driving Design Operations (DesignOps),
+        and partnering with cross-functional stakeholders ‚AI from product managers to executive leadership ‚AI to ship
+        accessible, business-aligned digital experiences.
         <br /><br />
-        My projects range from redesigning public-safety survey experiences for the City of Mesa, to building AI-assisted research tools with Mayo Clinic and ASU, to crafting end-to-end pilgrim travel mobile experiences. Each challenge fuels my passion for creating digital products that not only look good — but feel right to use.
+        My experience spans enterprise retail and healthcare platforms, including leading design governance at Kroger,
+        shaping product experiences at McKesson, and building research-driven interfaces earlier in my career across
+        UI/UX roles in Hyderabad, India. Each engagement fuels my passion for creating digital products that not only
+        look good ‚AI but feel right to use.
       </>
     ),
   },
@@ -108,73 +119,55 @@ const about: About = {
     experiences: [
       {
         company: "Kroger",
-        timeframe: "Feb 2026 – Present",
+        timeframe: "Sep 2025 ‚AI Present",
         role: "Senior Product Designer",
         achievements: [
-          <>Architected and scaled a centralized enterprise design system in Figma using component variables and semantic tokens, cutting cross-functional design-to-development handoff cycles by 40%.</>,
-          <>Conducted rigorous A/B and multivariate experimentation testing on the digital check-out funnel via Amplitude analytics, refining interaction touchpoints to capture $2.5M in projected annual revenue.</>,
-          <>Led a comprehensive accessibility overhaul of the flagship e-commerce application to ensure strict WCAG 2.2 AA compliance, increasing usability metrics by 25% for assistive technology users.</>,
-          <>Designed high-throughput internal logistics tracking interface, implementing advanced data visualization layouts that compressed 1M+ daily complex inventory updates into scannable, actionable dashboards.</>,
-          <>Directed co-creation and user journey mapping sprints with 50+ key corporate business units, converting qualitative research observations into friction-free user flows that boosted monthly active user (MAU) interaction metrics.</>,
+          <>Spearheaded enterprise product design initiatives, defining scalable interface standards and consistent design principles for complex, cross-functional business objectives.</>,
+          <>Directed product vision planning, translating strategic business goals into actionable design initiatives aligned with organizational priorities and customer expectations.</>,
+          <>Built out design leadership practices ‚AI mentoring designers, reviewing deliverables, and setting quality benchmarks to raise organizational design maturity.</>,
+          <>Established UX and design governance frameworks, including review procedures, usability standards, approval workflows, and documentation practices for consistent enterprise experiences.</>,
+          <>Led Design Operations (DesignOps), optimizing resource planning, workflow efficiency, and design asset organization across multiple concurrent product initiatives.</>,
+          <>Owned product portfolio planning and product benchmarking, evaluating opportunities and competitive positioning to guide design investment and prioritization decisions.</>,
+          <>Ran design review management and release readiness reviews, validating deliverables against organizational standards prior to implementation and deployment.</>,
         ],
         images: [],
       },
       {
-        company: "AriesView",
-        timeframe: "Oct 2025 – Dec 2025",
-        role: "Associate Software Engineering Intern (UI/UX / Product Design)",
-        achievements: [
-          <>Transformed highly abstract, 50,000+ node datasets into simplified relational data visualization interfaces, reducing cognitive load metrics and increasing data-analyst task performance speeds by 28%.</>,
-          <>Facilitated targeted context inquiries and contextual mapping sessions with 40 domain specialists, conducting multi-point heuristic audits to mathematically validate and iterate upon automated AI insights.</>,
-          <>Programmed highly accurate interactive application prototypes utilizing Figma and ProtoPie, defining conditional logic and complex micro-animations to map out exact front-end browser performance behaviors.</>,
-          <>Documented and integrated 50+ new accessible UI components into the core design system repository, standardizing typography and style hierarchies to reduce production layout variances by 20%.</>,
-        ],
-        images: [],
-      },
-      {
-        company: "Citus Infotech",
-        timeframe: "Oct 2022 – Nov 2023",
+        company: "McKesson",
+        timeframe: "Oct 2024 ‚AI Aug 2025",
         role: "Product Designer",
         achievements: [
-          <>Engineered conversational flows for an enterprise AI assistant, configuring natural language intent maps and automated query routing states to deflect low-tier client troubleshooting volume by 30%.</>,
-          <>Restructured core navigation models for a multi-tenant B2B SaaS system, deploying Framer behavioral prototypes to compress platform onboarding paths and elevate client annual retention rates by 15%.</>,
-          <>Spearheaded the responsive system redesign of high-traffic corporate web properties managed via WordPress and AEM, using flexbox-grid mechanics to increase session lengths by 45% while driving bounce rates below 20%.</>,
-          <>Pioneered multi-tier heuristic evaluations on dated industrial operations software, using Miro journey mapping to eliminate 15 high-friction workflow gaps and streamline end-to-end task flows.</>,
-          <>Integrated micro-animations into system state transitions using Adobe After Effects and Lottie, establishing high-fidelity visual confirmation loops that elevated perceived system speeds by 22%.</>,
+          <>Designed detailed product interfaces in Figma, maintaining organized, reusable component libraries to support efficient design collaboration and future scalability.</>,
+          <>Built interactive, motion-rich prototypes in Framer and Origami Studio, and responsive browser-based demos in Webflow, to validate interface behavior ahead of implementation.</>,
+          <>Documented process flows and BPMN diagrams in Lucidchart and Miro, clarifying product workflows, decision points, and feature functionality for cross-functional teams.</>,
+          <>Developed Value Proposition and Business Model Canvases to define customer needs, value drivers, and product positioning that informed feature planning.</>,
+          <>Ran accessibility reviews and maintained visual consistency across screens, and led structured design critique sessions to continuously improve interface quality.</>,
         ],
         images: [],
       },
       {
-        company: "OnDevice IT Solutions",
-        timeframe: "Jul 2021 – Oct 2022",
+        company: "On Device IT Solutions",
+        timeframe: "Aug 2020 ‚AI Nov 2023",
         role: "UI/UX Designer",
         achievements: [
-          <>Designed information layouts for technical telemetry web products using Sketch and InVision, configuring multi-layered analytical charts that scaled enterprise operational speed parameters by 35%.</>,
-          <>Translated engineering specifications into low-and-high-fidelity interactive wireframes, establishing structured navigation trees that minimized customer time-to-onboard by 40%.</>,
-          <>Managed continuous, recursive digital usability validation testing tracks with 500+ active enterprise professionals, tracking interaction metrics to implement layout optimizations that increased call-to-action engagement by 18%.</>,
-          <>Authored and governed comprehensive product typography rules and structural patterns, supplying cross-functional global dev teams with clean web UI kits to accelerate feature release vectors by 25%.</>,
+          <>Conducted end-to-end user research ‚AI personas, user flows, and journey mapping ‚AI to establish user-centered design requirements across the product lifecycle.</>,
+          <>Facilitated card sorting and tree testing sessions with real users to improve navigation structures and information discoverability.</>,
+          <>Executed heuristic evaluations and cognitive walkthroughs to identify usability obstacles and validate interface effectiveness for first-time users.</>,
+          <>Coordinated formal usability testing sessions and UX audits, translating findings into actionable design enhancements.</>,
+          <>Prototyped realistic interface behaviors in Proto.io and Principle, and produced detailed screen specifications and interaction guidelines for development handoff.</>,
         ],
         images: [],
       },
       {
         company: "DevRabbit IT Solutions",
-        timeframe: "Oct 2020 – Jun 2021",
-        role: "UI/UX Designer",
+        timeframe: "Jun 2017 ‚AI Jul 2020",
+        role: "UI Designer",
         achievements: [
-          <>Supervised discovery research tracks and remote user testing panels, converting raw screen recordings into analytical insights to structurally justify high-priority iterative feature updates.</>,
-          <>Developed application layouts, cross-platform wireframes, and interactive click-through prototypes using Adobe XD, converting functional platform parameters into tested, high-fidelity consumer interfaces.</>,
-          <>Facilitated cross-functional design thinking workshops with external corporate partners, leveraging collaborative empathy maps to align aesthetic deliverables with fundamental commercial bottom-line outcomes.</>,
-        ],
-        images: [],
-      },
-      {
-        company: "Informative Web Solutions",
-        timeframe: "May 2017 – Sep 2020",
-        role: "UI/UX Designer",
-        achievements: [
-          <>Designed and deployed responsive web interfaces for 15+ digital retail applications, configuring streamlined product exploration and carting paths that drove average order value (AOV) metrics up by 12%.</>,
-          <>Authored platform-agnostic fluid layouts for smartphone devices, enforcing strict adherence to Apple Human Interface Guidelines and Material Design definitions to generate a 30% surge in mobile transaction conversions.</>,
-          <>Re-architected structural sitemaps and indexing structures for an enterprise educational repository portal, compressing total user navigation pathways from 5 down to 3 essential actions.</>,
+          <>Designed pixel-perfect web interfaces and visual assets in Photoshop and Illustrator, aligned with branding and visual hierarchy standards.</>,
+          <>Produced interactive prototypes in Axure RP and low-fidelity wireframes in Balsamiq to accelerate stakeholder review and approval cycles.</>,
+          <>Built responsive web pages with semantic HTML, CSS, and JavaScript/jQuery, ensuring cross-browser compatibility and accessibility.</>,
+          <>Validated interface consistency through cross-browser compatibility testing and optimized graphics for page load performance.</>,
+          <>Documented screen structures and navigation flows in Microsoft Visio to support clear design-to-development communication.</>,
         ],
         images: [],
       },
